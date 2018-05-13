@@ -16,5 +16,9 @@ git status
 -- Before transfering files to github account we need to commit--
 git commit -m "any message" filename[.ext]
 
---Transfer the file to github account--
+--Transfer the file to github account--[push request]
 git push -u origin master
+
+--from github to local--[pull request]
+git pull origin master
+
