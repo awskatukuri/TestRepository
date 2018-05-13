@@ -1,1 +1,20 @@
 git commands here....................
+
+--Configuration--
+git config --global user.name "githubusername"
+git config --global user.email githubemailid
+
+--Cloning--
+git clone url 
+
+--Upload files to github from local machine--
+git add filename[.ext]
+
+--Check status of that file--
+git status
+
+-- Before transfering files to github account we need to commit--
+git commit -m "any message" filename[.ext]
+
+--Transfer the file to github account--
+git push -u origin master
